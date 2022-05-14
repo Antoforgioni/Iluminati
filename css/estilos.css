@@ -248,7 +248,45 @@ h3 {
     border-width: 5px;
 }
 
+
 /* tienda */
+.flex__transicions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton {
+    animation-duration: 4s;
+    animation-name: animacion_boton;
+    animation-iteration-count: inherit;
+
+}
+
+.boton {
+    background-color: beige;
+    padding: 10px;
+    font-size: small;
+    font-family: cursive
+}
+
+@keyframes animacion_boton {
+    0% {
+        width: 20%;
+
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
 
 .tienda__fotos {
     background-color: rgb(241, 203, 203);
@@ -263,6 +301,8 @@ h3 {
 .tienda__imagen {
     width: 300px;
 }
+
+
 
 
 /* galería */
@@ -306,6 +346,8 @@ h3 {
 .galeria__bannerfoto {
     width: 800px;
 }
+
+
 
 @media screen and (max-width: 768px) {
 
