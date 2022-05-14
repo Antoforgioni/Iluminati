@@ -266,6 +266,43 @@ h3 {
     width: 300px;
 }
 
+.flex__transicions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton {
+    animation-duration: 4s;
+    animation-name: animacion_boton;
+    animation-iteration-count: inherit;
+
+}
+
+.boton {
+    background-color: beige;
+    padding: 10px;
+    font-size: small;
+    font-family: cursive
+}
+
+@keyframes animacion_boton {
+    0% {
+        width: 20%;
+
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
 
 
 
