@@ -9,10 +9,6 @@
 }
 
 
-body {
-    background-color: rgb(253, 244, 224)
-}
-
 .grid__container {
     display: grid;
     border: 5px solid black;
@@ -35,6 +31,19 @@ body {
     flex-wrap: wrap;
 }
 
+.container-fluid {
+    background-color: rgb(241, 203, 203);
+
+}
+
+
+.footer__redes {
+    background-color: rgb(241, 203, 203);
+}
+
+.header {
+    background-color: rgb(241, 203, 203);
+}
 
 .header__logotitulo {
     display: flex;
@@ -116,6 +125,7 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
 }
+
 
 .rounded {
     height: 250px;
@@ -272,16 +282,6 @@ h3 {
     height: auto;
 }
 
-.tienda__fotos {
-    background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 300px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-}
-
 .flex__transicions {
     display: flex;
     flex-direction: column;
@@ -303,6 +303,16 @@ h3 {
     padding: 10px;
     font-size: small;
     font-family: cursive
+}
+
+.tienda__fotos {
+    background-color: rgb(241, 203, 203);
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    border-color: black;
+    border-style: groove;
+    border-width: 5px;
 }
 
 @keyframes animacion_boton {
