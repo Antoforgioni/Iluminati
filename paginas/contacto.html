@@ -22,12 +22,31 @@
                 <img class="header__logo" src="../recursos/pixlr-bg-result (2).png" alt="Logo">
                 <h1 class="header__titulo">Iluminati Candle Shop</h1>
             </div>
-            <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <li><a href=../index.html>Inicio </a> </li> <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./galeria.html">Galería</a></li>
-                    <li><a href="./tienda.html">Tienda</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./galeria.html">Galería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./tienda.html">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -36,15 +55,21 @@
                 <article class="row align-items-center">
                     <div class="text-center">
                         <h2> Contacto</h2>
-                        <h3>Para más información, dudas, consultas o compras mayoristas,
-                            completa el siguiente formulario:</h3>
+                        <h2>Para más información, dudas, consultas o compras mayoristas,
+                            completa el siguiente formulario:</h2>
 
                         <form class="main__formulario" action="formulario">
-                            <label for="nombre">Nombre</label>
+                            <label for="nombre">
+                                <h2>Nombre </h2>
+                            </label>
                             <input type="text" name="nombre">
-                            <label for="mail">Mail</label>
+                            <label for="mail">
+                                <h2>Mail </h2>
+                            </label>
                             <input type="text" name="mail">
-                            <label for="mensaje">mensaje</label>
+                            <label for="mensaje">
+                                <h2>Mensaje </h2>
+                            </label>
                             <textarea name="mensaje"></textarea>
                             <input type="submit" value="Enviar Mensaje">
                         </form>
@@ -64,7 +89,7 @@
 
         <footer class="footer__redes">
             <section>
-                <a href="https://www.instagram.com/?hl=es" a><img src="../recursos/instagram.png" alt="instagram"
+                <a href="https://www.instagram.com/?hl=es" a><img src="../recursos/instagramsf.webp" alt="instagram"
                         class=footer__instagram></a>
                 <a href="https://www.youtube.com/channel/UCm6EqyVPAxdeh0haU7R5uFA" a><img src="../recursos/youtube.png"
                         alt="youtube" class="footer__youtube"></a>

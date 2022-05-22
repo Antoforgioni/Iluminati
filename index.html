@@ -21,21 +21,36 @@
             <img class="header__logo" src="recursos/pixlr-bg-result.png" alt="Logo">
             <h1 class="header__titulo">Iluminati Candle Shop</h1>
         </div>
-
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1"></span>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="./paginas/galeria.html">Galería</a></li>
-                <li><a href="./paginas/tienda.html">Tienda</a></li>
-                <li><a href="./paginas/contacto.html">Contacto</a></li>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <main class="main__informacion">
-        <section class="container-fluid">
+        <section class="row justify-content-center">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -84,6 +99,7 @@
         <section class="container">
             <article class="row align-items-center">
                 <div class="col" col-xl-4 col-md-6 col-sm-12>
+                    <h2 class="main__texto"> La importancia de nuestra materia prima:</h2>
                     <h2 class="main__texto"> La cera de soja es un material derivado de plantas, una fuente
                         renovable y
                         biodegradable creando así un producto sostenible. Su combustión no supone ningún riesgo
@@ -113,7 +129,7 @@
 
     <footer class="footer__redes">
         <section>
-            <a href="https://www.instagram.com/?hl=es" a><img src="recursos/instagram.png" alt="instagram"
+            <a href="https://www.instagram.com/?hl=es" a><img src="recursos/instagramsf.webp" alt="instagram"
                     class=footer__instagram></a>
             <a href="https://www.youtube.com/channel/UCm6EqyVPAxdeh0haU7R5uFA" a><img src="recursos/youtube.png"
                     alt="youtube" class="footer__youtube"></a>
