@@ -31,6 +31,16 @@
     flex-wrap: wrap;
 }
 
+a:hover {
+    background-color: rgb(241, 203, 203);
+    color: rgb(4, 4, 5);
+    transform: translate(10px);
+}
+
+a:visited {
+    color: brown;
+}
+
 .container-fluid {
     background-color: rgb(241, 203, 203);
 
@@ -53,27 +63,20 @@
 }
 
 .header__logo {
-    width: 70px;
-    padding: 10px;
+    width: 5rem;
 }
 
 .header__navgacion {
     background-color: rgb(241, 203, 203);
-    padding: 30px;
-    border-radius: 30px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 
-.header__banner {
-    padding: 20px;
-    width: 1000px;
-}
 
 h1 {
     color: black;
-    font-size: 50px;
+    font-size: 3rem;
     font-style: italic;
     font-family: Dancing Script;
     padding: none;
@@ -81,7 +84,7 @@ h1 {
 
 li {
     display: inline;
-    padding: 10px;
+    padding: 1rem;
 }
 
 ul {
@@ -131,59 +134,25 @@ h2 {
 
 
 .rounded {
-    height: 250px;
+    height: 20rem;
     background-color: rgb(241, 203, 203);
-    padding: 20px;
-    margin: 40px;
-    width: 300px;
-    border-color: black;
+    padding: 1rem;
+    margin: 2rem;
+    width: 25rem;
     border-style: groove;
-    border-width: 5px;
 }
 
 .rounded1 {
-    height: 500px;
+    height: 30rem;
     background-color: rgb(241, 203, 203);
-    padding: 20px;
-    margin: 40px;
-    width: 300px;
-    border-color: black;
+    padding: 1rem;
+    margin: 2rem;
+    width: 35rem;
     border-style: groove;
-    border-width: 5px;
 }
 
 .rounded1 {
     width: 70%;
-}
-
-.canal__video {
-    background-color: rgb(241, 203, 203);
-    padding: 20px;
-    margin: 40px;
-    width: 1000px;
-    border-style: groove;
-    border-color: black;
-    border-width: 5px;
-}
-
-.ubicacion__mapa {
-    background-color: rgb(241, 203, 203);
-    padding: 20px;
-    margin: 40px;
-    width: 900px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-}
-
-.ubicacion__vela {
-    background-color: rgb(241, 203, 203);
-    padding: 20px;
-    margin: 40px;
-    width: 300px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
 }
 
 .footer__redes {
@@ -196,44 +165,23 @@ h2 {
 }
 
 .footer__instagram {
-    width: 50px;
+    width: 3rem;
 }
 
 .footer__youtube {
-    width: 50px;
+    width: 3rem;
 }
 
 /* nosotros */
 
-.main__nosotrosfoto {
-    background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 150px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-}
-
-.grid__itemgrid__dos {
-    display: flex;
-    justify-content: center;
-}
-
 .lista__items {
     display: list-item;
-    font-size: 20px;
-    padding: 5px;
-    margin: 5px;
-}
-
-.grid__itemgrid__tres {
-    text-align: left;
+    font-size: 2rem;
 }
 
 h3 {
     color: black;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: italic;
     font-family: cursive
 }
@@ -259,26 +207,6 @@ h3 {
 .main__formulario {
     padding: 10px;
     margin: 20px;
-}
-
-.main__imagen {
-    background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 200px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
-}
-
-.main__vela {
-    background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 200px;
-    border-color: black;
-    border-style: groove;
-    border-width: 5px;
 }
 
 
@@ -314,7 +242,7 @@ h3 {
 
 .boton {
     background-color: beige;
-    padding: 10px;
+    padding: 1rem;
     font-size: small;
     font-family: cursive
 }
@@ -350,13 +278,12 @@ h3 {
 }
 
 .tienda__fotos {
+    height: 30rem;
     background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 300px;
-    border-color: black;
+    padding: 1rem;
+    margin: 2rem;
+    width: 25rem;
     border-style: groove;
-    border-width: 5px;
 }
 
 @keyframes animacion_boton {
@@ -380,17 +307,19 @@ h3 {
 /* galería */
 
 .img-fluid1 {
-    max-width: 300px;
-    height: auto;
+    height: 25rem;
     background-color: rgb(241, 203, 203);
-    padding: 10px;
-    margin: 20px;
-    width: 300px;
-    border-color: black;
+    padding: 1rem;
+    margin: 2rem;
+    width: 25rem;
     border-style: groove;
-    border-width: 5px;
 }
 
 .img-fluid3 {
-    width: 80%;
+    width: 90%;
+    height: 25rem;
+    background-color: rgb(241, 203, 203);
+    padding: 1rem;
+    margin: 2rem;
+    border-style: groove;
 }
