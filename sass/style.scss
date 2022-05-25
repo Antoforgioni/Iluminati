@@ -1,0 +1,273 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.grid__container {
+    display: grid;
+    border: 5px solid $border-color;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    gap: 10px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: $color-letra-principal;
+    font-style: italic;
+    font-family: $font-principal;
+    font-size: xx-large;
+
+    & :hover {
+        background-color: $color-principal;
+        color: $color-letra-principal;
+        transform: translate(10px);
+    }
+
+    & :visited {
+        color: brown;
+    }
+}
+
+.container-fluid {
+    background-color: $color-principal;
+
+}
+
+
+
+h1 {
+    color: $color-letra-principal;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: $font-principal;
+    padding: none;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+
+h2 {
+    color: $color-letra-principal;
+    font-style: italic;
+    font-family: $font-principal;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3 {
+    color: $color-letra-principal;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: cursive
+}
+
+
+.main__informacion {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .carousel {
+        width: 70%;
+    }
+
+}
+
+.section {
+    &__canal {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__ubicacion {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.container {
+    .rounded {
+        height: 20rem;
+        background-color: $color-principal;
+        padding: 1rem;
+        margin: 2rem;
+        width: 25rem;
+        border-style: groove;
+    }
+
+    .rounded1 {
+        height: 30rem;
+        background-color: $color-principal;
+        padding: 1rem;
+        margin: 2rem;
+        width: 35rem;
+        border-style: groove;
+    }
+
+    .rounded1 {
+        width: 70%;
+    }
+}
+
+/* nosotros */
+
+.lista__items {
+    display: list-item;
+    font-size: 2rem;
+}
+
+
+/* contacto */
+
+.main {
+    &__contacto {
+        color: $color-letra-principal;
+        font-style: italic;
+        font-family: cursive;
+        text-align: center;
+    }
+
+    &__formulario {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    &__velauno {
+        background-color: $color-principal;
+        padding: 10px;
+        margin: 20px;
+        width: 300px;
+        border-color: $border-color;
+        border-style: groove;
+        border-width: 5px;
+    }
+}
+
+
+/* tienda */
+
+.img-fluid2 {
+    max-width: 250px;
+    height: auto;
+}
+
+.flex__transicions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.boton {
+    animation-duration: 4s;
+    animation-name: animacion_boton;
+    animation-iteration-count: inherit;
+
+    .boton {
+        background-color: $background-color-boton;
+        padding: 1rem;
+        font-size: small;
+        font-family: cursive
+    }
+}
+
+/* galería */
+
+
+.img-fluid1 {
+    height: 25rem;
+    background-color: $color-principal;
+    padding: 1rem;
+    margin: 2rem;
+    width: 25rem;
+    border-style: groove;
+}
+
+.img-fluid3 {
+    width: 90%;
+    height: 25rem;
+    background-color: $color-principal;
+    padding: 1rem;
+    margin: 2rem;
+    border-style: groove;
+}
+
+@keyframes animacion_boton {
+    0% {
+        width: 20%;
+
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+.boton {
+    animation-duration: 4s;
+    animation-name: animacion_boton;
+    animation-iteration-count: inherit;
+
+}
+
+.boton {
+    background-color: $background-color-boton;
+    padding: 10px;
+    font-size: small;
+    font-family: cursive
+}
+
+.tienda__fotos {
+    height: 30rem;
+    background-color: $color-principal;
+    padding: 1rem;
+    margin: 2rem;
+    width: 25rem;
+    border-style: groove;
+}
+
+@keyframes animacion_boton {
+    0% {
+        width: 20%;
+
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
