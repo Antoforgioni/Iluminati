@@ -100,6 +100,9 @@ h3 {
   flex-wrap: wrap; }
   .main__informacion .carousel {
     width: 70%; }
+  .main__informacion .carousel__velas {
+    margin-left: 0%;
+    margin-right: 0%; }
 
 .section__canal {
   display: flex;
