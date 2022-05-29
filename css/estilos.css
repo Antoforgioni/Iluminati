@@ -133,6 +133,43 @@ h3 {
 .container .rounded1 {
   width: 70%; }
 
+.container__titulo {
+  text-align: center; }
+
+.container .img-fluid4 {
+  height: 25rem;
+  padding: 1rem;
+  margin: 2rem;
+  width: 25rem; }
+
+.container .img-fluid5 {
+  height: 25rem;
+  padding: 1rem;
+  margin: 2rem;
+  width: 25rem; }
+
+.container .img-fluid2 {
+  max-width: 250px;
+  height: auto; }
+
+.container .img-fluid1 {
+  height: 25rem;
+  background-color: #f1cbcb;
+  padding: 1rem;
+  margin: 2rem;
+  width: 25rem;
+  border-style: groove;
+  border-radius: 3rem; }
+
+.container .img-fluid3 {
+  width: 90%;
+  height: 25rem;
+  background-color: #f1cbcb;
+  padding: 1rem;
+  margin: 2rem;
+  border-style: groove;
+  border-radius: 3rem; }
+
 /* nosotros */
 .lista__items {
   display: list-item;
@@ -159,10 +196,6 @@ h3 {
   border-width: 5px; }
 
 /* tienda */
-.img-fluid2 {
-  max-width: 250px;
-  height: auto; }
-
 .flex__transicions {
   display: flex;
   flex-direction: column;
@@ -181,22 +214,6 @@ h3 {
     font-family: cursive; }
 
 /* galería */
-.img-fluid1 {
-  height: 25rem;
-  background-color: #f1cbcb;
-  padding: 1rem;
-  margin: 2rem;
-  width: 25rem;
-  border-style: groove; }
-
-.img-fluid3 {
-  width: 90%;
-  height: 25rem;
-  background-color: #f1cbcb;
-  padding: 1rem;
-  margin: 2rem;
-  border-style: groove; }
-
 @keyframes animacion_boton {
   0% {
     width: 20%; }
@@ -231,3 +248,13 @@ h3 {
     width: 50%; }
   100% {
     width: 100%; } }
+
+.img-fluid4 {
+  background-color: #dedcf5;
+  border-radius: 3rem;
+  border-style: groove; }
+
+.img-fluid5 {
+  background-color: #d0ec53;
+  border-radius: 3rem;
+  border-style: groove; }
