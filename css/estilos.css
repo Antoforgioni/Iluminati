@@ -3,6 +3,7 @@
 /*tipos de letra*/
 /*Border color*/
 /*Boton*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 .header {
   grid-area: header;
   display: flex;
@@ -39,7 +40,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-size: 12px; }
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif; }
 
 .grid__container {
   display: grid;
@@ -88,8 +90,7 @@ h2 {
 h3 {
   color: black;
   font-size: 2rem;
-  font-style: italic;
-  font-family: cursive; }
+  font-style: italic; }
 
 .main__informacion {
   grid-area: main;
@@ -169,22 +170,38 @@ h3 {
   margin: 2rem;
   border-style: groove;
   border-radius: 3rem; }
+  @media screen and (max-width: 768px) {
+    .container .img-fluid3 {
+      height: 150px; } }
 
 /* nosotros */
 .lista__items {
   display: list-item;
   font-size: 2rem; }
 
+.imgnosotros {
+  width: 200px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /* contacto */
 .main__contacto {
   color: black;
   font-style: italic;
-  font-family: cursive;
   text-align: center; }
 
 .main__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
   margin: 20px; }
+  .main__formulario input {
+    width: 200px;
+    margin: 1rem; }
+  .main__formulario textarea {
+    margin-bottom: 0.5rem; }
 
 .main__velauno {
   background-color: #f1cbcb;
@@ -210,8 +227,7 @@ h3 {
   .boton .boton {
     background-color: beige;
     padding: 1rem;
-    font-size: small;
-    font-family: cursive; }
+    font-size: small; }
 
 /* galería */
 @keyframes animacion_boton {
@@ -230,8 +246,7 @@ h3 {
 .boton {
   background-color: beige;
   padding: 10px;
-  font-size: small;
-  font-family: cursive; }
+  font-size: small; }
 
 .tienda__fotos {
   height: 30rem;
@@ -240,6 +255,13 @@ h3 {
   margin: 2rem;
   width: 25rem;
   border-style: groove; }
+
+.error404 {
+  color: black;
+  font-family: Dancing Script, italic;
+  text-align: center;
+  font-size: xx-large;
+  align-items: center; }
 
 @keyframes animacion_boton {
   0% {
@@ -251,10 +273,5 @@ h3 {
 
 .img-fluid4 {
   background-color: #dedcf5;
-  border-radius: 3rem;
-  border-style: groove; }
-
-.img-fluid5 {
-  background-color: #d0ec53;
   border-radius: 3rem;
   border-style: groove; }
